@@ -1,0 +1,263 @@
+body{
+    background-image: linear-gradient(to right,#DFF2EB,#aed8ef);
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+  } 
+
+  .main{
+    margin: 0 auto;
+    display: block;
+    width: 1400px;
+  }
+
+ /* menu */
+
+.header{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+    background-color: #b29ae1;
+    position: fixed;
+    z-index: 99999;
+    top: -25px;
+    width: 1400px;
+}
+
+.logo{
+    float: left;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.name{
+    margin-top: 40px;
+    float: left;
+    font-size: 20px;
+}
+
+.name a{
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    background-color: #b29ae1;
+    padding:15px;
+    border-bottom: 5px solid #b29ae1;
+}
+
+#header h2{
+    color: #FFFFF1;
+    font-family: georgia;
+}
+
+#header p{
+    color: white;
+    font-family: Georgia;
+}
+
+.padding{
+    padding-left: 20px;
+}
+
+#nav{
+    background-color: #b29ae1;
+    height: 36px;
+    padding-top: 35px;
+}
+
+#nav ul{
+    background-color: #fff;
+    list-style-type: none;
+}
+
+#nav ul li{
+    float: left;
+}
+
+#nav ul li:last-child{
+    border: none;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    font-family: arial;
+}
+
+#nav ul li a:hover{
+    color: #827159;
+}
+
+#nav ul li{
+    position: relative;
+}
+
+#nav ul li ul{
+    position: absolute;
+    left: -99999px;
+}
+
+#nav ul li ul a{
+    color: black;
+}
+
+#nav ul li:hover ul{
+    left: 0;
+}
+
+#nav ul li li:first-child{
+    border-top: 1px solid #1a0e71;
+}
+
+#nav ul .dropdown{
+    width: 900px;
+    color: black;
+    height: 600px;
+}
+
+#nav ul li li{
+    float: none;
+    border-right: none;
+    border-bottom: 1px solid #1a0e71;
+    width: 200px;
+}
+
+.button{
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.modal h1{
+    color: black;
+}
+
+.modal a{
+    text-decoration: none;
+    font-size: 21px;
+    padding-left: 50px;
+}
+/* menu end */
+
+  table, th, td {
+    border:1px solid black;
+  } 
+
+  h1 {
+    text-align: center;
+    color: rgb(250, 248, 251);
+    margin-top:400px;
+    text-emphasis-color: rgb(250, 248, 251);
+    text-emphasis-position: under;
+    text-emphasis-style:sesame;
+  }
+  
+  h2,h4{
+    text-align: center;
+    color: darkslateblue;
+  }
+  
+  .head{
+    background-image: url(img/notice/Harvard-University.jpg);
+    background-size: cover;
+    height: 500px;
+    background-repeat:no-repeat;
+  }
+  
+  /* Style the buttons that are used to open and close the accordion panel */
+
+  .accordion {
+    /* background-color: #dacef0; */
+    color:#C9E6F0;
+    cursor:grab;
+    padding:10px;
+    width: 100%;
+    text-align:left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    color: darkslateblue;
+    font-size:20px; 
+    font-weight: 500;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color:#7BD3EA;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding:18px;
+    background-color:#80C4E9;
+    display: none;
+    overflow: auto;
+    color: darkslateblue;
+    font-size:20px; 
+    font-weight: 500;
+  }
+
+  /* footer */
+
+.footer{
+background-color: #b29ae1;
+color: darkslateblue;
+padding-top: 50px;
+margin-top: 50px;
+}
+
+.footer a{
+text-decoration: none;
+color: darkslateblue;
+}
+
+.footer .about_padding{
+padding-left: 50px;
+}
+
+.footer .page_padding{
+padding-left: 200px;
+}
+
+.footer .social_padding{
+padding-left: 200px;
+}
+
+.footer .media{
+font-size: 30px;
+padding-left: 10px;
+}
+
+.fa-facebook-f{
+color: blue;
+padding-top: 10px;
+}
+
+.fa-x-twitter{
+padding-top: 10px;
+}
+
+.footer img{
+padding-bottom: 10px;
+padding-left: 5px;
+}
+
+.fa-youtube{
+color: red;
+padding-top: 20px;
+}
+
+.footer2 p{
+padding-left: 100px;
+}
+
+.footer2 .right{
+padding-left: 800px;
+}
+
+.footer2{
+padding-bottom: 10px;
+}
